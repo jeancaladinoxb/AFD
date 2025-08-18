@@ -1,0 +1,23 @@
+# Estados 
+
+Estados=Q0,Q1,Q2,Q3,Q4,Q5,Q6
+
+# Alfabeto
+
+Alfabeto=moneda,entrada,fallo,carga,seleccion,juego,fin
+
+# Estado Inicial
+Inicial=Q0
+# Estado final 
+Finales=Q6
+
+# Transiciones 
+Q0,moneda,Q1
+Q1,entrada,Q2
+Q2,fallo,Q2
+Q2,carga,Q3
+Q3,seleccion,Q4
+Q4,seleccion,Q4
+Q4,juego,Q5
+Q5,fin,Q6
+
