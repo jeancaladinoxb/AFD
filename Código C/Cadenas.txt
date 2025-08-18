@@ -1,0 +1,4 @@
+moneda entrada carga seleccion juego fin
+moneda entrada fallo fallo carga seleccion juego fin
+moneda entrada carga seleccion seleccion juego fin
+moneda entrada carga seleccion juego
