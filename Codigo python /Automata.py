@@ -5,22 +5,14 @@ def cargar_configuracion(archivo):
             linea = linea.strip()
             if linea.startswith("#") or not linea:
                 continue
-            # Estados
             if linea.startswith("Estados="):
                 estados = linea.split("=")[1].strip().split(",")
-            # Alfabeto
             elif linea.startswith("Alfabeto="):
                 alfabeto = linea.split("=")[1].strip().split(",")
-            
-            # Inicial
             elif linea.startswith("Inicial="):
                 inicial = linea.split("=")[1].strip()
-            
-            # Finales
             elif linea.startswith("Finales="):
                 finales = linea.split("=")[1].strip().split(",")
-            
-            # Transiciones
             else:
                 partes = [p.strip() for p in linea.split(",")]
                 if len(partes) == 3:
