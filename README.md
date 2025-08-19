@@ -20,12 +20,22 @@ Los primeros pasos para ejecutar el programa son lo siguientes:
 
    ![Ejecución Python](images/Python1.png)
 
-Esto arrojará por terminal la lectura de la cadena de del autómata finito y en adición indicará si las cadenas de ejemplo son aceptadas o no, de acuerdo a la configuración de dicho autómata 
+Esto ejecutara la lógica del código Python creado con anterioridad y a su vez arrojará por terminal la lectura de la cadena del autómata finito y en adición indicará si las cadenas de ejemplo son aceptadas o no, de acuerdo a la configuración de dicho autómata 
 
 ![Ejecución Python2](images/Python2.png)
 
+4. Ejecución terminal carpeta Código C: Una vez estado en la terminal de la carpeta C se ejecutaran unos códigos adicionales para llegar a la ejecución final del ejercicio.
 
+ -  Primero se complilará y creara el ejecutable del programa  usando gcc Automata.c -o Automata
 
+   ![Ejecución C1](images/C1.png)
+
+ - Segundo se ejecutará el programa haciendo uso del comando ./Automata
+
+    ![Ejecución C2](images/C2.png)
+  
+Una vez el programa se ejecute correctamente, encontraremos una salida por consola la cual deberia validar si las cadenas de ejemplo implementadas para el autómata son aceptadas o no 
  
+![Ejecución C3](images/C3.png)
 
  
