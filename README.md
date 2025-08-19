@@ -28,7 +28,7 @@ Esto ejecutara la lógica del código Python creado con anterioridad y a su vez 
 
  -  Primero se complilará y creara el ejecutable del programa  usando gcc Automata.c -o Automata
 
-   ![Ejecución C1](images/C1.png)
+    ![Ejecución C1](images/C1.png)
 
  - Segundo se ejecutará el programa haciendo uso del comando ./Automata
 
